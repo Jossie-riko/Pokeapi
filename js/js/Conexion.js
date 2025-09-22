@@ -15,6 +15,7 @@ async function General() {
     pokemones = await conexionLista();
   }
   Home(pokemones);
+  console.log(pokemones)
 }
 
 General()
